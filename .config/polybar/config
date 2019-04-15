@@ -249,7 +249,7 @@ format-packetloss = <label-connected>
 
 ; Default: %ifname% %local_ip%
 ; label-connected = %essid% %downspeed:9%
-label-connected = %essid%|%signal%
+label-connected = %essid%|%signal%%
 label-connected-foreground = ${colors.foreground}
 
 ; Default: (none)
@@ -401,12 +401,12 @@ time-format = %H:%M
 ;   <animation-charging>
 format-charging = <animation-charging> <label-charging>
 
-label-charging = %percentage%% %time%
+label-charging = %percentage%%
 
 label-padding = 2
 
 format-discharging = <ramp-capacity> <label-discharging>
-label-discharging = %percentage%
+label-discharging = %percentage%%
 
 format-full = <label-full>
 format-full-prefix = " "
@@ -438,7 +438,7 @@ animation-discharging-3 = 
 animation-discharging-4 = 
 ; Framerate in milliseconds
 animation-discharging-framerate = 500
-animation-charging-foreground = #999
+animation-charging-foreground = ${colors.foreground}
 
 [module/mpd]
 type = internal/mpd
@@ -518,7 +518,7 @@ menu-1-1 = 
 menu-1-1-foreground = ${colors.foreground}
 menu-1-1-exec = sudo reboot
 
-menu-2-0 = off
+menu-2-0 = 
 menu-2-0-foreground = ${colors.foreground}
 menu-2-0-exec = sudo poweroff
 menu-2-1 = 
