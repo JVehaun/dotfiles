@@ -1,0 +1,7 @@
+# im-config(8) generated on Tue, 24 Jul 2018 10:59:08 -0400
+run_im ibus
+# im-config signature: add840703b96c36845466f252123bf10  -
+
+# Set the scrollpad to track the page rather than view
+synclient HorizScrollDelta=-44
+synclient VertScrollDelta=-44

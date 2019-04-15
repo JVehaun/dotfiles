@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# But include some config files
+!.bashrc
+!.emacs.d/*
+!.themes/*
+!.xinitrc
+!.xinputrc
+!.Xresources
+!.zshrc
+!.spacemacs
+
+!.config/i3/config
+!.config/polybar/*
+
+# Never exclude the .gitignore
+!.gitignore
