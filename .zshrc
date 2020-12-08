@@ -116,3 +116,9 @@ export PATH="/home/jonathan/.cargo/bin:$PATH"
 export CLASSPATH=".:/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH"
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
 alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/jonathan/Documents/google-cloud-sdk/path.zsh.inc' ]; then . '/home/jonathan/Documents/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/jonathan/Documents/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/jonathan/Documents/google-cloud-sdk/completion.zsh.inc'; fi
