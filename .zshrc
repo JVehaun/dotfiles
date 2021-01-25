@@ -122,3 +122,6 @@ if [ -f '/home/jonathan/Documents/google-cloud-sdk/path.zsh.inc' ]; then . '/hom
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/jonathan/Documents/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/jonathan/Documents/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval $(thefuck --alias)
+alias oops='fuck'
